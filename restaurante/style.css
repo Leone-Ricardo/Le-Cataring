@@ -1,0 +1,103 @@
+* {
+  font-family: "Times New Roman", Georgia, Serif;
+}
+
+.navbar .ml-auto {
+  display: flex;
+  float: right;
+}
+
+nav {
+  letter-spacing: 4px;
+  font-size: 15px;
+}
+
+nav .container {
+  margin: 0;
+}
+
+nav a:hover {
+  color: black;
+  background-color: #cecece;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+}
+
+.name {
+  opacity: 0.7;
+  letter-spacing: 4px;
+}
+
+.format {
+  font-size: 40px;
+  letter-spacing: 5px;
+}
+
+.since {
+  font-size: 20px;
+  letter-spacing: 4px;
+}
+
+@media (max-width: 575.98px) {
+  .navbar .ml-auto {
+    margin-right: 0;
+    display: inline-flex;
+    justify-content: flex-end;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .navbar .ml-auto {
+    margin-right: 0;
+    display: inline-flex;
+    justify-content: flex-end;
+  }
+}
+
+@media (max-width: 620px) {
+  .navbar {
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    white-space: nowrap;
+  }
+  .navbar .nav-link {
+    margin-right: 10px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .navbar .ml-auto {
+    margin-right: 0;
+    display: inline-flex;
+    justify-content: flex-end;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .navbar .ml-auto {
+    margin-right: 0;
+    display: flex;
+    justify-content: flex-end;
+  }
+}
+
+@media (max-width: 1200px) and (max-width: 1399.98px) {
+  .navbar .ml-auto {
+    margin-right: 0;
+    display: flex;
+    justify-content: flex-end;
+  }
+}
+
+@media (max-width: 1400px) {
+  .navbar .ml-auto {
+    display: flex;
+    justify-content: flex-end;
+  }
+}
+
+@media (max-width: 1700px) {
+  .navbar .ml-auto {
+    display: flex;
+    justify-content: flex-end;
+  }
+}
